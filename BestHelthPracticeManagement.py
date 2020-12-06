@@ -1,5 +1,5 @@
 #####################################################
-#       Best Health Practice Alert System           #
+#       Healthy Programmer Reminder System          #
 #       Developer: Ajeet Pandey                     #
 #                                                   #
 ####################################################
