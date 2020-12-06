@@ -13,7 +13,7 @@ from time     import time
 def musiconloop(file, stopper):
     mixer.init()
     mixer.music.load(file)
-    mixer.music.play(3)
+    mixer.music.play(-1)
     while True:  # when we just play and exit then program didn't get enough time
         a = input()
         if a == stopper:
@@ -49,5 +49,8 @@ if __name__ == '__main__':
             init_exercise = time() #initializing again
             log_now("Physical Activity done at: ")
 
-
+        elif a == "exit":
+             mixer.music.stop()
+    # to close or exit the program.
+             break
 
