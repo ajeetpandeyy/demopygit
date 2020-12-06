@@ -49,5 +49,8 @@ if __name__ == '__main__':
             init_exercise = time() #initializing again
             log_now("Physical Activity done at: ")
 
-
+        elif a == "exit":
+             mixer.music.stop()
+    # to close or exit the program.
+             break
 
